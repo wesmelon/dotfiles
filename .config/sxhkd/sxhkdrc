@@ -8,7 +8,8 @@ alt + Return
 
 # program launcher
 alt + space
-	dmenu_run
+	rofi -show run
+	# dmenu_run
 
 # make sxhkd reload its configuration files:
 alt + Escape
@@ -20,7 +21,7 @@ alt + Escape
 
 # quit bspwm normally
 super + alt + Escape
-	bspc quit
+	pkill -x panel; bspc quit
 
 # close and kill
 alt + {_,shift + }w
