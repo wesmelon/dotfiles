@@ -7,7 +7,7 @@ alt + Return
 	st
 
 # program launcher
-alt + space
+alt + r
 	rofi -show run
 	# dmenu_run
 
